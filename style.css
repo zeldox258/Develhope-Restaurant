@@ -1,0 +1,86 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-color: lightgray;
+    
+}
+
+.navbar a{
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 55px;
+    text-decoration: none;
+}
+
+
+.searchArea{
+    margin-left: 25px;
+}
+
+.searchArea button{
+    background-color: darkolivegreen;
+    border-radius: 30px;
+    color: aliceblue;
+}
+
+.searchArea input{
+    border-radius: 30px;
+}
+
+
+header{
+    text-align: center;
+    font-size: 55px;
+    color: lightgray;
+    background-color: brown;
+    border-radius: 55px;
+}
+
+
+
+img{
+    width: 240px;
+    height: 160px;
+    border-radius: 1000px;
+    margin: 25px;
+}
+
+.Menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.MenuItem{
+    margin: 3%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Chefs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Chef{
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1%;
+
+}
+.Title{
+    text-align: center;
+    font-size: 45px;
+    color: red;
+}
