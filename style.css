@@ -79,8 +79,69 @@ img{
     margin: 1%;
 
 }
+
 .Title{
     text-align: center;
     font-size: 45px;
     color: red;
+}
+
+.Contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.inputsArea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+.halfScreen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 26%;
+}
+
+.halfScreen input{
+    width: 80%;
+}
+
+
+
+.fullScreen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+}
+
+.fullScreen input {
+    width: 80%;
+}
+
+.fullScreen select {
+    width: 80%;
+
+}
+
+.fullScreen textarea {
+    width: 80%;
+    height: 100px;
+}
+
+
+.textAlignLeft{
+    text-align: left;
 }
