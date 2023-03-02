@@ -209,7 +209,20 @@ img{
     width: 80%;
     height: 100px;
 }
-
+.content-nuri {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5%;
+}
+.content-nuri img {
+    width: 400px;
+    height: 400px;
+}
+.content-nuri p {
+    font-size: 30px;
+}
 
 
 
