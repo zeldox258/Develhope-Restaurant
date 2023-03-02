@@ -70,6 +70,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 
@@ -129,6 +130,12 @@ img{
     transition-duration: 2s;
 }
 
+.Sergio:hover{
+    transform: rotate(3600deg);
+    background-image: url("./images/Sergio.PNG");
+    transition-property: background-image font-size text-decoration border-radius width height transform color transition-delay;
+    transition-duration: 2s;
+}
 
 
 .Title{
