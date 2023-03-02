@@ -137,6 +137,13 @@ img{
     transition-duration: 2s;
 }
 
+.content-alberto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:7%;
+    flex-direction: column;
+}
 
 .Title{
     text-align: center;
