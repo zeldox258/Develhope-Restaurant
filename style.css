@@ -137,7 +137,26 @@ img{
     transition-duration: 2s;
 }
 
+.content-alberto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:11%;
+    flex-direction: column;
+    border: 2px solid burlywood;
+    background-color: bisque;
+    border-radius: 12%;
+    
+   
 
+}
+.content-alberto p{
+    font-size: 25px;
+    padding:5%
+}
+.content-alberto img{
+    height: 250px;
+}
 .Title{
     text-align: center;
     font-size: 45px;
