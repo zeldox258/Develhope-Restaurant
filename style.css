@@ -228,6 +228,22 @@ img{
 
 
 
+.SildiContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.SildiContainer img{
+    width: 30%;
+    height: 30%;
+}
+.SildiContainer p{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
 /*
 .Test{
 
