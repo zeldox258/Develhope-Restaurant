@@ -216,14 +216,28 @@ img{
     flex-direction: column;
     margin: 5%;
     padding: 5%;
-    border: 2px solid salmon;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    border: 5px solid salmon;
 }
 .content-nuri img {
     width: 400px;
     height: 400px;
 }
 .content-nuri p {
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: medium;
+    line-height: 30px;
+}
+.chef-nuri-allpage {
+    background-color: bisque;
+    font-family: "Roboto" sans-serif;
+}
+.Nuri-footer {
+    font-size: 25px;
+    font-weight: medium;
+    line-height: 30px;
+    margin-bottom: 20px;
 }
 
 
